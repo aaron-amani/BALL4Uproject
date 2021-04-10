@@ -1,0 +1,11 @@
+div.sportsmagazine-fancy-title{
+    box-shadow: 10px 5px 10px ;
+    border-radius:10px;
+}
+
+.main{
+    background-image : url("../../../extra-images/bleuBack.png");
+    border-radius: 10px;
+    text-align:center;
+    padding:1em 0;
+}
