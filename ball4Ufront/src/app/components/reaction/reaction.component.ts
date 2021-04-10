@@ -11,7 +11,7 @@ export class ReactionComponent implements OnInit,AfterViewInit {
 
   }
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    throw new Error('Method not implemented.');//Test et renvoie un message d'erreur si il n'y a pas de methode
   }
 
   ngAfterViewInit() {
