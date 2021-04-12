@@ -11,10 +11,10 @@ export class CalendrierMatchComponent implements OnInit {
   loadAPI: Promise<any>;
   
   constructor() { 
-      const url = 'https://tv-sports.fr/widget.js'; 
+      const url = 'https://tv-sports.fr/widget.js'; //Lien ou l'on retrouve les informations à utiliser
       this.loadAPI = new Promise((resolve) => {
           console.log('resolving promise...');
-          loadScript(url);
+          loadScript(url);//Chargement de ce lien
       });
     
   }
